@@ -1,0 +1,29 @@
+{
+    "name": "nodejs",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/index.js",
+        "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/nyatto03/nodejs_blog.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nyatto03/nodejs_blog/issues"
+    },
+    "homepage": "https://github.com/nyatto03/nodejs_blog#readme",
+    "description": "",
+    "dependencies": {
+        "express": "^4.19.2",
+        "express-handlebars": "^8.0.1",
+        "node-sass": "^9.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
